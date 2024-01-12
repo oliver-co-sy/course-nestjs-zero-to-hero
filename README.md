@@ -50,4 +50,8 @@
 
     ### NestJS Service ###
 
+    - Generate a new service using the NestJS CLI
+        ```
+        $ nest g service tasks
+        ```
     - Implemented as a provider (registered in the module decorator) that can be injected to other classes if decorated with `@Injectable` (Note that not all providers are services)
